@@ -1,0 +1,51 @@
+.calendar-page {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  font-family: 'Noto Sans KR', sans-serif;
+  background: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.calendar-header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.calendar-header-top h1 {
+  font-size: 1.8rem;
+  color: #333;
+  margin: 0 15px;
+}
+
+.calendar-header-top button {
+  padding: 5px 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  background: #eee;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+
+.calendar-header-top button:hover {
+  background: #ddd;
+}
+
+.month-total {
+  font-size: 0.95rem;
+  color: #666;
+  font-weight: 500;
+}
+
+.calendar-header-top select {
+  margin-left: 10px;
+  padding: 3px 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
